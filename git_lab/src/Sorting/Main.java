@@ -21,12 +21,15 @@ public class Main {
 		System.out.println();
 		
 		System.out.println("Sorted Array:");
-		BubbleSort bs = new BubbleSort();
-		int[] sorted = bs.bubbleSort(unsortedArray);
-		for(int s : sorted){
-			System.out.println(s);
-		}
+<<<<<<< HEAD
 		
+=======
+		int[] sortedArray = InsertionSort.insertionSort(unsortedArray);
+		for (int i : sortedArray) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+>>>>>>> did things
 	}
 
 }
